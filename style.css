@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(235, 230, 230);
+
+}
+main{
+    
+    width: 100vh;
+   margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: row;
+   
+}
+
+.top{
+    background-color: rgb(161, 118, 8);
+    padding:10px;
+    padding-bottom: 2em;
+
+}
+
+
+.top-content h1 {
+    color: white;
+    
+}
+.top-content p {
+        color: white;
+        padding: 10px;
+}
+
+.top-content button {
+    color: rgb(192, 14, 14); 
+     padding: 10px;
+     border: none;
+     border-radius: 15px;
+     margin: 10px 0px;
+     font-size: bold;
+}
+
+.second-content {
+    background-color: rgb(3, 60, 68);
+    padding: 10px;
+    flex-direction: row;
+   
+}
+
+.second-content .top-content h1 {
+    color: white;
+    
+}
+
+.second-content .top-content p {
+    color: white;
+    padding:10px;
+    
+}
+.second-content .top-content button{
+color: rgb(192, 14, 14); 
+     padding: 8%;
+     border: none;
+     border-radius: 15px;
+     margin: 10px 0px;
+     font-size: bold;
+}
+
+
+
+.last-content .second-last {
+    background-color: rgba(4, 27, 75, 0.699);
+    padding: 10px;
+    color: white; 
+}
+
+.last-content .second-last h1 {
+   padding: em;
+    color: white; 
+}
+
+.last-content .second-last P {
+    padding: ;
+     color: white; 
+ }
+
+ .last-content .second-last button {
+     color: rgb(192, 14, 14); 
+     padding: 8%;
+     border: none;
+     border-radius: 15px;
+     margin: 10px 0px;
+     font-size: bold;
+ }
